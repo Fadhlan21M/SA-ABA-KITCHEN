@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap");
+
+body {
+  font-family: "Gluten", cursive;
+}
+
+#about {
+  padding-top: 5rem;
+}
+
+.col {
+  font-size: 20px;
+}
+
+#catalog {
+  background-color: #ffc881;
+  padding-top: 5rem; /* Atur jarak atas sesuai kebutuhan */
+  max-height: fit-content;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-image,
+  .about-description {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .about-description {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
